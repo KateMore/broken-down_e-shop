@@ -1,0 +1,250 @@
+/*NAV*/
+.navbar {
+  background: none;
+}
+.navbar .navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+.navbar .navbar-collapse ul {
+  margin-left: 22%;
+  line-height: 14px;
+}
+.navbar .navbar-collapse ul li a {
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+.navbar form {
+  margin: 0;
+}
+.navbar form .form-control {
+  width: 65px;
+  font-size: 1.2rem;
+  color: black;
+  text-align: right;
+  border: none;
+}
+.navbar form button[type="submit"] {
+  border: none;
+}
+.navbar form button[type="submit"] .fa {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.navbar form button[type="button"] {
+  font-size: 1.2rem;
+  color: black;
+  text-align: right;
+  border: none;
+}
+/*Subnav*/
+.subnav {
+  margin-bottom: 40px;
+  margin-left: 5%;
+}
+.subnav ul li {
+  list-style-type: none;
+  margin-left: 22px;
+  color: #000;
+}
+.subnav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000;
+}
+.subnav ul li a:hover {
+  color: #ccc;
+}
+.location {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 30px;
+}
+/*Choise*/
+.photo-gallery {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.photo-gallery .col-sm-4 img {
+  max-width: 185px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.items-info {
+  margin-left: 30px;
+}
+.items-info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.items-info a {
+  font-size: 1.2rem;
+  color: #888888;
+  display: inline-block;
+}
+.items-info .col-sm-11 > .size-choise {
+  display: inline-block;
+  width: 20%;
+  margin-right: 0px !important;
+}
+.items-info .color-choise {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #000;
+}
+.items-info .ring-color-choise {
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+.items-info .ring-color-choise li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #888888;
+  border-radius: 10px;
+}
+.items-info .ring-color-choise li a {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #888888;
+  border-radius: 14px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: none;
+  opacity: 0;
+  position: relative;
+  top: -5px;
+  left: -5px;
+}
+.items-info .ring-color-choise li a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.items-info .ring-color-choise .ring-black {
+  background: #000;
+}
+.items-info .ring-color-choise .ring-taupe {
+  background: #db8a4f;
+}
+.items-info .ring-color-choise .ring-aquamarine {
+  background: #0b5a57;
+}
+.items-info .size-choise {
+  padding-left: 0;
+  color: #000;
+  font-size: 1.2rem;
+}
+.items-info .users-size-choise {
+  padding-left: 10px;
+}
+.items-info .users-size-choise li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+  color: #ccc;
+  font-size: 1.2rem;
+  /*.available {
+	color:#000;
+}
+			/*a {
+			
+			
+			}
+		
+			a:hover{
+			color: #888888;
+			text-decoration: none;
+			}*/
+}
+.items-info .btn-group .btn {
+  margin-top: 1px;
+  border-radius: 0;
+}
+.items-info .btn-group .navbar-btn {
+  margin-top: 0;
+  margin-left: 15px;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  width: 350px;
+  border-radius: 0;
+}
+.items-info .add {
+  margin-left: 220px;
+}
+.items-info .item-description {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  color: #000;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+}
+.items-info .item-description p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.items-info .item-description h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.items-info .item-description ul {
+  padding-left: 0;
+}
+.items-info .item-description ul li {
+  font-size: 1.2rem;
+  line-height: 1;
+  list-style-type: none;
+}
+.items-info .item-description ul li:before {
+  content: "- ";
+}
+.social-groups ul {
+  padding-top: 0;
+}
+.social-groups ul li {
+  list-style-type: none;
+}
+.social-groups ul li .fa {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.social-groups ul li .fa-facebook-square {
+  color: #3b5998;
+}
+.social-groups ul li .fa-twitter-square {
+  color: #00aced;
+}
+.social-groups ul li .fa-pinterest {
+  color: #cb2027;
+}
+.striked {
+  text-decoration: line-through;
+}
+.discount-price {
+  color: red;
+}
+.users-size-choise > li.available {
+  color: #000;
+}
+.shopping-cart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 0;
+  display: none;
+  overflow: hidden;
+  transition: 5s;
+}
+.shopping-cart.visible {
+  display: block;
+  height: auto;
+}
+.shopping-cart h3 {
+  font-size: 1.7rem;
+}

@@ -1,0 +1,299 @@
+
+/*NAV*/
+
+.navbar {
+	background: none;
+	.navbar-brand {
+		padding-top: 10px;
+		padding-bottom: 7px;
+
+	}
+	.navbar-collapse{
+
+		ul {
+		margin-left: 22%;
+		line-height: 14px;
+			li{
+				a {
+			padding-top: 10px;
+			padding-bottom: 7px;
+				}
+			}
+
+		}
+	}
+	form {
+		margin: 0;
+		
+		.form-control {
+			width: 65px;
+			font-size: 1.2rem;
+			color: black;
+			text-align: right;
+			border: none;
+		}
+		button[type="submit"] {
+			border: none;
+			.fa {
+				font-size: 2rem;
+				font-weight: 100;
+
+			}
+		}
+		button[type="button"] {
+			font-size: 1.2rem;
+			color: black;
+			text-align: right;
+			border: none;
+
+		}
+
+	}
+
+}
+
+/*Subnav*/
+.subnav {
+	margin-bottom: 40px;
+	margin-left: 5%;
+	ul{
+		li{ list-style-type: none;
+			margin-left: 22px;
+			color: #000;
+			a{
+				text-decoration: none;
+				font-size: 1.2rem;
+				color: #000;
+			}
+			a:hover{
+				color: #ccc;
+			}
+		}
+	}
+}
+.location {
+	font-size: 1.2rem;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+/*Choise*/
+
+.photo-gallery {
+	margin-bottom: 10px;
+	display: inline-block;
+	.col-sm-4 {
+    	img {
+    	max-width: 185px;
+    	margin-right: 15px;
+    	display: inline-block;
+    	}
+	}
+}
+.items-info {
+	margin-left: 30px;
+	h3 {
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	a {
+		font-size: 1.2rem;
+		color: #888888;
+		display: inline-block;
+		}
+	.col-sm-11 > .size-choise {
+		display: inline-block;
+		width: 20%;
+		margin-right:0px !important;
+	}
+
+	.color-choise {
+		margin-top: 40px;
+		font-size: 1.2rem;
+		color: #000;
+
+	}
+	.ring-color-choise{
+		padding-left: 0;
+		margin-bottom: 30px;
+		
+		li {
+			list-style-type: none;
+			display: inline-block;
+			margin-right: 15px;
+			width: 20px;
+			height: 20px;
+			border: 1px solid #888888;
+			border-radius: 10px;
+			
+			a {
+				width: 28px;
+				height: 28px;
+				border: 1px solid #888888;
+				border-radius: 14px;
+				cursor: pointer;
+				vertical-align: middle;
+				background: none;
+				opacity:0;
+				position: relative;
+				top: -5px;
+				left: -5px;
+			}
+		
+			a:hover {
+				opacity: 1;
+				cursor: pointer;
+
+			}
+		}
+		
+		
+		.ring-black {
+			background: #000;
+		}
+		.ring-taupe {
+			background: #db8a4f;
+		}
+		.ring-aquamarine {
+			background: #0b5a57;
+		}
+	
+
+	}
+
+	.size-choise {
+		padding-left: 0;
+		color: #000;
+		font-size: 1.2rem;
+	}
+
+	.users-size-choise{
+		padding-left: 10px;
+		li {
+			list-style-type: none;
+			display: inline-block;
+			margin-right: 15px;
+			color: #ccc;
+			font-size: 1.2rem;
+			/*.available {
+	color:#000;
+}
+			/*a {
+			
+			
+			}
+		
+			a:hover{
+			color: #888888;
+			text-decoration: none;
+			}*/
+		}
+	}
+	.btn-group {
+		.btn {
+			margin-top: 1px;
+			border-radius:0; 
+		}
+		.navbar-btn {
+			margin-top: 0;
+			margin-left: 15px;
+			background: #000;
+			color: #fff;
+			font-weight: 600;
+			width: 350px;
+			border-radius:0; 
+
+		}
+
+	}
+	.add {
+		margin-left: 220px;
+	}
+
+	.item-description {
+		margin-top: 10px;
+		padding-bottom: 15px;
+		color: #000;
+		border-top: 1px solid #888888;
+		border-bottom: 1px solid #888888;
+		p {
+			font-size: 1.2rem;
+			margin-bottom: 0;
+		}
+		h5 {
+			font-size: 1.2rem;
+			font-weight: 600;
+		}
+		ul {
+			padding-left: 0;
+		 	li {
+			font-size: 1.2rem;
+			line-height: 1;
+			list-style-type: none;
+			
+			}
+			li:before {
+            content: "- "; 
+   			}
+		}
+	}
+	}
+
+.social-groups {
+	ul {
+		padding-top: 0;
+
+		li {
+		list-style-type: none;
+			.fa{
+				font-size: 3.5rem;
+				margin-bottom: 20px;
+		
+			}
+			.fa-facebook-square {
+				color: #3b5998;
+			}
+			.fa-twitter-square {
+				color: #00aced;
+			}
+			.fa-pinterest {
+				color: #cb2027;
+			}
+		}
+	}
+}
+.striked {
+	text-decoration: line-through;
+}
+.discount-price {
+	color: red;
+}
+.users-size-choise > li.available {
+	color:#000;
+}
+.shopping-cart {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #fff;
+	height: 0;
+	display: none;
+	overflow: hidden;
+	transition: 5s;
+
+	&.visible {
+		display: block;
+		height: auto;
+	}
+	h3 {
+		font-size: 1.7rem;
+	}
+
+
+}
+
+
+
